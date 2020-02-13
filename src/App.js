@@ -18,7 +18,7 @@ function App() {
         <Route path="/edit/:id" component={EditExercise} />
         <Route path="/create" component={CreateExercise} />
         <Route path="/user/create" component={CreateUser} />
-        <Route path="/:id" component={GetUser} />
+        <Route path="/one/:id" component={GetUser} />
       </div>
     </Router>
   );
